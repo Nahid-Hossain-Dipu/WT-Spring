@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Lab Task 1
+        </title>
+    </head>
+    <body>
+        <h1>Online Admission</h1>
+        <form>
+            <fieldset>
+                <legend>
+                    <h2>Personal Information</h2>
+                </legend>    
+            <table>
+            <tr>
+                <td>First Name: </td>
+                <td><input type="text" maxlength="30"></td>
+            </tr>
+            <tr>
+                <td>Last Name: </td>
+                <td><input type="text" maxlength="30"></td>
+            </tr>
+            <tr>
+                <td>Age: </td>
+                <td><input type="number" maxlength="3"></td>
+            </tr>
+            <tr>
+                <td>Email: </td>
+                <td><input type="email" maxlength="20" required></td>
+            </tr>
+            <tr>
+                <td>DOB: </td>
+                <td><input type="date"></td>
+            </tr>
+      
+            <tr><td>Gender :</td></tr>
+            <tr><td><input type="radio" name="gender">Male</td></tr>
+            <tr><td><input type="radio" name="gender">Female</td></tr>
+            <tr><td><input type="radio" name="gender">Trans</td></tr>
+            <tr>
+                <td>Hobby:</td></tr>
+            <tr><td><label><input type="checkbox" name="hobby">Gardening</label></td></tr>
+            <tr><td><label><input type="checkbox" name="hobby">Singing</label></td></tr>
+            <tr><td><label><input type="checkbox" name="hobby">Dancing</label></td></tr>
+            <tr><td><label><input type="checkbox" name="hobby">Driving</label></td></tr>
+            
+        </table>
+
+                
+            </fieldset>
+            <fieldset>
+                <legend><h2>Academic Background</h2></legend>
+                <table>
+                    <tr><td><h3>Grade</h3></td></tr>
+                    <tr>
+                        <td>SSC:</td>
+                        <td><input type="number" required></td>
+                    </tr>
+                      <tr>
+                        <td>HSC:</td>
+                        <td><input type="number" required></td>
+                    </tr>
+                    <tr>
+                        <td>Course Selection:</td>
+                        <td>
+                            <select>
+                                <option>CSE</option>
+                                <option>EEE</option>
+                                <option>LAW</option>
+                                <option>Pharmacy</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Upload Marksheet:</td>
+                        <td><input type="file" required></td>
+                        <td><input type="submit" required></td>
+                    </tr>
+                </table>
+            </fieldset>
+        </form>
+    </body>
+</html>
