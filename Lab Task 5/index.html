@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Text Analyzer</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<h2>Text Analyzer</h2>
+
+<form onsubmit="return analyzeText()">
+    <textarea id="text" rows="10" placeholder="Enter Some Text"></textarea><br>
+    <button type="submit">Analyze Text</button>
+</form>
+
+<p id="error"></p>
+
+<div id="output">
+    <p><b>Characters:</b> <span id="charCount"></span></p>
+    <p><b>Words:</b> <span id="wordCount"></span></p>
+    <p><b>Reversed Text:</b></p>
+    <p id="reversedText"></p>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>

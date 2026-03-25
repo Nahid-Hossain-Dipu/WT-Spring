@@ -1,0 +1,27 @@
+body {
+    font-family: Arial;
+    text-align: center;
+}
+
+textarea {
+    width: 60%;
+}
+
+button {
+    padding: 5px 10px;
+    background-color: green;
+    color: white;
+    border: none;
+}
+#output {
+    width: 60%;
+    margin: 20px auto;
+    padding: 15px;
+    border: 1px solid #ccc;
+    background-color: #fff;
+    border-radius: 8px;
+}
+
+#output p {
+    margin: 5px 0;
+}
